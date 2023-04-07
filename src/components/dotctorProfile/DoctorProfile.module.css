@@ -1,0 +1,11 @@
+.doctorImg {
+  width: 200px;
+  height: 200px;
+}
+
+
+.specialty {
+  color: var(--main-color);
+  background-color: var(--light-color);
+  padding: 5px;
+}

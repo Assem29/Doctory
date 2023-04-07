@@ -1,0 +1,20 @@
+.container {
+  width: 63%;
+}
+.user {
+  display: flex;
+  
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .user {
+    display: none;
+    background: #000;
+  }
+  .search{
+    width: 100%;
+  }
+}

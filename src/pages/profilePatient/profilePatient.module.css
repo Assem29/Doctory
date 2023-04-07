@@ -1,0 +1,31 @@
+.imgContainer {
+  width: 200px;
+  height: 200px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.patient_img_select {
+  cursor: pointer;
+  right: 10px;
+  bottom: 0px;
+  z-index: 100;
+}
+
+
+
+
+td:first-child {
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .patientName {
+    font-size: 0.2rem;
+  }
+  .countFollow {
+    font-size: 12px;
+  }
+}

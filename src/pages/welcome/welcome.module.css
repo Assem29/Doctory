@@ -1,0 +1,47 @@
+/* .transform {
+  transform: translateY(100%);
+  transition: all 1s ease-in-out;
+} */
+
+.text {
+  color: var(--main-color);
+  font-size: 4em;
+  letter-spacing: 2.5px;
+}
+.content {
+  margin: 0 auto;
+  width: 40em;
+}
+
+@media (max-width: 992px) {
+  .all {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-300px);
+    margin-left: 5em;
+  }
+}
+@media (max-width: 600px) {
+  .all {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100px);
+    margin-left: 0em;
+  }
+  .img {
+    margin-left: 2em;
+  }
+}
+
+.navbar {
+  background-color: var(--light-color);
+}
+
+.navbar img {
+  width: 50px;
+}
+
+.navbar button {
+  color: var(--main-color);
+  font-size: 18px;
+}
